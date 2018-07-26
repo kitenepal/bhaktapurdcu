@@ -12,6 +12,11 @@
   outline: none;
 }
 
+/* line 17, ../sass/base/_base.scss */
+.section-padding {
+  padding: 60px 0;
+}
+
 /* line 2, ../sass/module/_news&notice.scss */
 .nav-tabs li.active > a, .nav-tabs li.active > a:focus, .nav-tabs > li.active > a:hover {
   color: #339933;
