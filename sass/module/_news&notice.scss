@@ -1,3 +1,20 @@
+.nav-tabs{
+	li.active>a, li.active>a:focus, >li.active>a:hover{
+		color: $primary-color;
+	}
+	li{
+		a{
+			color: $secondary-color;
+			font-weight: bold;
+			text-transform: uppercase;
+			transition: 0.2s;
+			&:hover{
+			background-color: $primary-color;
+			color: #fff;
+		}
+		}
+	}
+}
 .tab-items{
 	padding: 20px 0;
 }
