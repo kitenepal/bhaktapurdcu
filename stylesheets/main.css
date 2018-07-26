@@ -16,3 +16,10 @@
 .tab-items {
   padding: 20px 0;
 }
+
+/* line 1, ../sass/module/_nav.scss */
+.navbar {
+  border-radius: 0px;
+  transition: 0.2s;
+  margin-bottom: 100px;
+}
