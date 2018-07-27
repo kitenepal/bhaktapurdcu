@@ -1,5 +1,30 @@
 .navbar {
-    border-radius: 0px;
-    transition: 0.2s;
-    margin-bottom: 100px;
+  border-radius: 0px;
+  transition: 0.2s;
+  .navbar-brand{
+    padding: 0px 15px;
+    display: flex;
+    .social-icon{
+      display: flex;
+      flex-direction: column;
+      i{
+        margin: 3px 0px;
+        color: #fff;
+      }
+    }
+  }
+  .logo{
+    width: 50px;
+    margin: 0px 10px;
+  }
+  .some-txt{
+    float: left;
+    height: 50px;
+    padding: 15px 0px;
+    font-size: 18px;
+    line-height: 20px;
+    .web-title{
+      color: #fff;
+    }
+  }
 }

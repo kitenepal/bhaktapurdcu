@@ -43,5 +43,36 @@
 .navbar {
   border-radius: 0px;
   transition: 0.2s;
-  margin-bottom: 100px;
+}
+/* line 4, ../sass/module/_nav.scss */
+.navbar .navbar-brand {
+  padding: 0px 15px;
+  display: flex;
+}
+/* line 7, ../sass/module/_nav.scss */
+.navbar .navbar-brand .social-icon {
+  display: flex;
+  flex-direction: column;
+}
+/* line 10, ../sass/module/_nav.scss */
+.navbar .navbar-brand .social-icon i {
+  margin: 3px 0px;
+  color: #fff;
+}
+/* line 16, ../sass/module/_nav.scss */
+.navbar .logo {
+  width: 50px;
+  margin: 0px 10px;
+}
+/* line 20, ../sass/module/_nav.scss */
+.navbar .some-txt {
+  float: left;
+  height: 50px;
+  padding: 15px 0px;
+  font-size: 18px;
+  line-height: 20px;
+}
+/* line 26, ../sass/module/_nav.scss */
+.navbar .some-txt .web-title {
+  color: #fff;
 }
