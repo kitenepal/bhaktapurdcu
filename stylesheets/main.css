@@ -56,23 +56,42 @@
 }
 /* line 10, ../sass/module/_nav.scss */
 .navbar .navbar-brand .social-icon i {
-  margin: 3px 0px;
+  margin: 1px 0px;
   color: #fff;
 }
 /* line 16, ../sass/module/_nav.scss */
 .navbar .logo {
-  width: 50px;
+  width: 60px;
+  height: 60px;
   margin: 0px 10px;
 }
-/* line 20, ../sass/module/_nav.scss */
+/* line 21, ../sass/module/_nav.scss */
 .navbar .some-txt {
   float: left;
-  height: 50px;
+  height: 60px;
   padding: 15px 0px;
   font-size: 18px;
   line-height: 20px;
 }
-/* line 26, ../sass/module/_nav.scss */
+/* line 27, ../sass/module/_nav.scss */
 .navbar .some-txt .web-title {
+  color: #fff;
+}
+
+/* line 33, ../sass/module/_nav.scss */
+.navbar-right .navbar-form {
+  margin-top: 0px;
+}
+/* line 35, ../sass/module/_nav.scss */
+.navbar-right .navbar-form .num-eml {
+  color: #fff;
+}
+/* line 37, ../sass/module/_nav.scss */
+.navbar-right .navbar-form .num-eml i {
+  margin-right: 3px;
+}
+
+/* line 43, ../sass/module/_nav.scss */
+form ~ .fa {
   color: #fff;
 }

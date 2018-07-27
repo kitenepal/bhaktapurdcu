@@ -17,6 +17,7 @@
       	<a class="navbar-brand" href="#">
 					<div class="social-icon">
 						<i class="fa fa-facebook"></i>
+						<i class="fa fa-twitter"></i>
 						<i class="fa fa-youtube"></i>
 					</div>
 					<img class="logo" src="img/logo.png" alt="">
@@ -26,16 +27,27 @@
       	<a class="web-title" href="#">WEBSiteName</a>
     	</div>
 			<!--search-->
-			<form class="navbar-form navbar-left" action="/action_page.php">
-				<div class="input-group">
-					<input type="text" class="form-control" placeholder="Search" name="search">
-					<div class="input-group-btn">
-						<button class="btn btn-default" type="submit">
-							<i class="fa fa-search"></i>
-						</button>
+			<div class="nav navbar-nav navbar-right">
+				<form class="navbar-form navbar-left" action="/action_page.php">
+					<div class="input-group">
+						<input type="text" class="form-control" placeholder="Search" name="search">
+						<div class="input-group-btn">
+							<button class="btn btn-default" type="submit">
+								<i class="fa fa-search"></i>
+							</button>
+						</div>
 					</div>
-				</div>
-			</form>
+					<div class="num-eml">
+						<i class="fa fa-phone"></i>9841569874  &nbsp&nbsp&nbsp
+						<i class="fa fa-envelope"></i>bhaktapur@.com
+					</div>
+				</form>
+				<i class="fa fa-flag"></i>
+				<select class="" name="">
+					<option value="">English</option>
+					<option value="">Nepali</option>
+				</select>
+			</div>
 		</div>
 	  <div class="container-fluid">
 	    <div class="navbar-header">
@@ -218,19 +230,7 @@
 			</div>
 		</div>
 	</section>
-	<script>
-		var prevScrollpos = window.pageYOffset;
-		window.onscroll = function() {
-		var currentScrollPos = window.pageYOffset;
-		  if (prevScrollpos > currentScrollPos) {
-		    document.getElementById("navbar").style.top = "0";
-		  } else {
-		    document.getElementById("navbar").style.top = "-50px";
-		  }
-		  prevScrollpos = currentScrollPos;
-		}
-	</script>
-
+	<script type="text/javascript" src="js/nav.js"></script>
 	<!-- bootstrap js -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
