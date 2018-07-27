@@ -88,3 +88,14 @@
 .services-items .primary-btn {
   border-radius: 0;
 }
+
+/* line 2, ../sass/module/_bod-slider.scss */
+.team-slider .carousel-indicators .active {
+  background-color: #339933;
+}
+/* line 5, ../sass/module/_bod-slider.scss */
+.team-slider .carousel-indicators li {
+  border-color: #339933;
+  position: relative;
+  bottom: -40px;
+}
