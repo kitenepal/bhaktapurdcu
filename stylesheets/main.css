@@ -76,3 +76,15 @@
 .navbar .some-txt .web-title {
   color: #fff;
 }
+
+/* line 1, ../sass/module/_services.scss */
+.services-items {
+  margin: 20px 0;
+  border-width: 0 1px 0 1px;
+  border-color: #339933;
+  border-style: solid;
+}
+/* line 6, ../sass/module/_services.scss */
+.services-items .primary-btn {
+  border-radius: 0;
+}
