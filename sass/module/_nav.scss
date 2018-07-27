@@ -8,18 +8,19 @@
       display: flex;
       flex-direction: column;
       i{
-        margin: 3px 0px;
+        margin: 1px 0px;
         color: #fff;
       }
     }
   }
   .logo{
-    width: 50px;
+    width: 60px;
+    height: 60px;
     margin: 0px 10px;
   }
   .some-txt{
     float: left;
-    height: 50px;
+    height: 60px;
     padding: 15px 0px;
     font-size: 18px;
     line-height: 20px;
@@ -27,4 +28,18 @@
       color: #fff;
     }
   }
+}
+.navbar-right{
+  .navbar-form{
+    margin-top: 0px;
+    .num-eml{
+      color: #fff;
+      i{
+        margin-right: 3px;
+      }
+    }
+  }
+}
+form~.fa{
+  color: #fff;
 }
