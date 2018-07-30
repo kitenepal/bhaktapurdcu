@@ -188,3 +188,19 @@ footer ul li {
 #social-em:hover {
   color: #f39c12;
 }
+
+/* line 43, ../sass/module/_footer.scss */
+.copyright {
+  background-color: #339933;
+  color: #fff;
+  padding: 10px 0;
+}
+/* line 47, ../sass/module/_footer.scss */
+.copyright h4 {
+  margin: 0;
+  padding: 0;
+}
+/* line 50, ../sass/module/_footer.scss */
+.copyright h4 a {
+  color: #fff;
+}

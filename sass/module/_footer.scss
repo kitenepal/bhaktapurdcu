@@ -38,3 +38,17 @@ footer{
 #social-em:hover {
     color: #f39c12;
 }
+
+// copyright
+.copyright{
+  background-color: $primary-color;
+  color: #fff;
+  padding: 10px 0;
+  h4{
+    margin: 0;
+    padding: 0;
+    a{
+      color: #fff;
+    }
+  }
+}
