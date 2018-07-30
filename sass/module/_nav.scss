@@ -1,6 +1,14 @@
+.navbar-inverse{
+  border-color: $primary-color;
+  .navbar-nav>li>a{
+    color: #fff;
+  }
+}
 .navbar {
   border-radius: 0px;
   transition: 0.2s;
+  background: $primary-color;
+  padding-top: 2px;
   .navbar-brand{
     padding: 0px 15px;
     display: flex;
@@ -26,9 +34,13 @@
     line-height: 20px;
     .web-title{
       color: #fff;
+      &:hover{
+        text-decoration: none;
+      }
     }
   }
 }
+
 .navbar-right{
   .navbar-form{
     margin-top: 0px;
