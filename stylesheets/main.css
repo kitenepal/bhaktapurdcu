@@ -46,37 +46,42 @@
 /* line 3, ../sass/module/_nav.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: #fff;
+  transition: 0.3s;
+}
+/* line 6, ../sass/module/_nav.scss */
+.navbar-inverse .navbar-nav > li > a:hover {
+  background-color: #999;
 }
 
-/* line 7, ../sass/module/_nav.scss */
+/* line 11, ../sass/module/_nav.scss */
 .navbar {
   border-radius: 0px;
   transition: 0.2s;
   background: #339933;
   padding-top: 2px;
 }
-/* line 12, ../sass/module/_nav.scss */
+/* line 16, ../sass/module/_nav.scss */
 .navbar .navbar-brand {
   padding: 0px 15px;
   display: flex;
 }
-/* line 15, ../sass/module/_nav.scss */
+/* line 19, ../sass/module/_nav.scss */
 .navbar .navbar-brand .social-icon {
   display: flex;
   flex-direction: column;
 }
-/* line 18, ../sass/module/_nav.scss */
+/* line 22, ../sass/module/_nav.scss */
 .navbar .navbar-brand .social-icon i {
   margin: 1px 0px;
   color: #fff;
 }
-/* line 24, ../sass/module/_nav.scss */
+/* line 28, ../sass/module/_nav.scss */
 .navbar .logo {
   width: 60px;
   height: 60px;
   margin: 0px 10px;
 }
-/* line 29, ../sass/module/_nav.scss */
+/* line 33, ../sass/module/_nav.scss */
 .navbar .some-txt {
   float: left;
   height: 60px;
@@ -84,33 +89,65 @@
   font-size: 18px;
   line-height: 20px;
 }
-/* line 35, ../sass/module/_nav.scss */
+/* line 39, ../sass/module/_nav.scss */
 .navbar .some-txt .web-title {
   color: #fff;
 }
-/* line 37, ../sass/module/_nav.scss */
+/* line 41, ../sass/module/_nav.scss */
 .navbar .some-txt .web-title:hover {
   text-decoration: none;
 }
 
-/* line 45, ../sass/module/_nav.scss */
+/* line 48, ../sass/module/_nav.scss */
+.bord-top {
+  border-top: 1px solid #929292;
+}
+
+/* line 52, ../sass/module/_nav.scss */
 .navbar-right .navbar-form {
   margin-top: 0px;
 }
-/* line 47, ../sass/module/_nav.scss */
+/* line 54, ../sass/module/_nav.scss */
 .navbar-right .navbar-form .num-eml {
   color: #fff;
 }
-/* line 49, ../sass/module/_nav.scss */
+/* line 56, ../sass/module/_nav.scss */
 .navbar-right .navbar-form .num-eml i {
   margin-right: 3px;
 }
 
-/* line 55, ../sass/module/_nav.scss */
+/* line 62, ../sass/module/_nav.scss */
 form ~ .fa {
   color: #fff;
 }
 
+/* line 65, ../sass/module/_nav.scss */
+.resp--logo {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 69, ../sass/module/_nav.scss */
+  .resp--hd {
+    display: none;
+  }
+
+  /* line 72, ../sass/module/_nav.scss */
+  .navbar-form {
+    padding: 0px 25px;
+    border-top: none;
+    border-bottom: none;
+    margin-bottom: -7px;
+  }
+
+  /* line 78, ../sass/module/_nav.scss */
+  .resp--logo {
+    display: block;
+    position: relative;
+    float: left;
+    padding: 5px;
+  }
+}
 /* line 1, ../sass/module/_services.scss */
 .services-items {
   margin: 20px 0;
