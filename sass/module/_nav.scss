@@ -44,7 +44,7 @@
     float: left;
     line-height: 20px;
     color: #fff;
-    h3,h5{
+    h3{
       margin-top: 0px;
       margin-bottom: 0px;
     }
@@ -57,7 +57,9 @@
 .navbar-right{
   .navbar-form{
     margin-top: 0px;
+    margin-bottom: 0px;
     .num-eml{
+      margin-top: 8px;
       color: #fff;
       i{
         margin-right: 3px;
