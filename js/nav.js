@@ -7,4 +7,6 @@ var currentScrollPos = window.pageYOffset;
     document.getElementById("navbar").style.top = "-64px";
   }
   prevScrollpos = currentScrollPos;
+  var myan=document.getElementById("myan").innerHTML=prevScrollpos;
+  var man=document.getElementById('man').innerHTML=currentScrollPos;
 }
