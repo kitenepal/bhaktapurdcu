@@ -186,37 +186,39 @@ form ~ .fa {
 /* line 1, ../sass/module/_footer.scss */
 footer {
   background-color: #003399;
+  background-image: url("https://www.transparenttextures.com/patterns/elegant-grid.png");
   color: #fff;
+  border-top: 5px solid #1947a3;
 }
-/* line 4, ../sass/module/_footer.scss */
+/* line 7, ../sass/module/_footer.scss */
 footer h3 {
   text-decoration: underline;
   font-weight: bold;
 }
-/* line 8, ../sass/module/_footer.scss */
+/* line 11, ../sass/module/_footer.scss */
 footer ul {
   display: inline;
   padding: 0;
 }
-/* line 11, ../sass/module/_footer.scss */
+/* line 14, ../sass/module/_footer.scss */
 footer ul li {
   color: #fff;
   list-style: none;
   transition: 0.2s;
 }
-/* line 15, ../sass/module/_footer.scss */
+/* line 18, ../sass/module/_footer.scss */
 footer ul li:hover {
   padding-left: 10px;
 }
 
-/* line 22, ../sass/module/_footer.scss */
+/* line 25, ../sass/module/_footer.scss */
 .social:hover {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   -o-transform: scale(1.1);
 }
 
-/* line 27, ../sass/module/_footer.scss */
+/* line 30, ../sass/module/_footer.scss */
 .social {
   color: #fff;
   -webkit-transform: scale(0.8);
@@ -227,27 +229,27 @@ footer ul li:hover {
   -moz-transition-duration: 0.5s;
   -o-transition-duration: 0.5s;
 }
-/* line 36, ../sass/module/_footer.scss */
+/* line 39, ../sass/module/_footer.scss */
 .social:hover {
   color: #339933;
 }
 
-/* line 54, ../sass/module/_footer.scss */
+/* line 57, ../sass/module/_footer.scss */
 .copyright {
   background-color: #339933;
   color: #fff;
   padding: 10px 0;
 }
-/* line 58, ../sass/module/_footer.scss */
+/* line 61, ../sass/module/_footer.scss */
 .copyright h4 {
   margin: 0;
   padding: 0;
 }
-/* line 61, ../sass/module/_footer.scss */
+/* line 64, ../sass/module/_footer.scss */
 .copyright h4 a {
   color: #fff;
 }
-/* line 63, ../sass/module/_footer.scss */
+/* line 66, ../sass/module/_footer.scss */
 .copyright h4 a:hover {
   color: #3f145b;
 }
