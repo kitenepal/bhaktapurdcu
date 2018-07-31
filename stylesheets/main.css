@@ -185,7 +185,7 @@ form ~ .fa {
 
 /* line 1, ../sass/module/_footer.scss */
 footer {
-  background-color: #003399;
+  background-color: #002d89;
   background-image: url("https://www.transparenttextures.com/patterns/elegant-grid.png");
   color: #fff;
   border-top: 5px solid #1947a3;
@@ -236,20 +236,20 @@ footer ul li:hover {
 
 /* line 57, ../sass/module/_footer.scss */
 .copyright {
-  background-color: #339933;
+  background-color: #287a00;
   color: #fff;
   padding: 10px 0;
 }
-/* line 61, ../sass/module/_footer.scss */
+/* line 62, ../sass/module/_footer.scss */
 .copyright h4 {
   margin: 0;
   padding: 0;
 }
-/* line 64, ../sass/module/_footer.scss */
+/* line 65, ../sass/module/_footer.scss */
 .copyright h4 a {
   color: #fff;
 }
-/* line 66, ../sass/module/_footer.scss */
+/* line 67, ../sass/module/_footer.scss */
 .copyright h4 a:hover {
   color: #3f145b;
 }
