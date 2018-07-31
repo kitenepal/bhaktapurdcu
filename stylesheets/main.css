@@ -194,7 +194,7 @@ form ~ .fa {
 /* line 1, ../sass/module/_services.scss */
 .services-items {
   margin: 20px 0;
-  border-width: 0 1px 0 1px;
+  border-width: 1px 1px 0 1px;
   border-color: #339933;
   border-style: solid;
 }
