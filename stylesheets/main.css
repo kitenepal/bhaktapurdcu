@@ -192,17 +192,22 @@ form ~ .fa {
   }
 }
 /* line 1, ../sass/module/_services.scss */
+.services {
+  background-color: #eaf4e5;
+}
+
+/* line 4, ../sass/module/_services.scss */
 .services-items {
   margin: 20px 0;
   border-width: 1px 1px 0 1px;
   border-color: #339933;
   border-style: solid;
 }
-/* line 6, ../sass/module/_services.scss */
+/* line 9, ../sass/module/_services.scss */
 .services-items h3 {
   font-weight: bold;
 }
-/* line 9, ../sass/module/_services.scss */
+/* line 12, ../sass/module/_services.scss */
 .services-items .primary-btn {
   border-radius: 0;
 }
