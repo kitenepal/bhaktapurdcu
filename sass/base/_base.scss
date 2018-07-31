@@ -1,8 +1,17 @@
+// heading font
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 a{
 	&:hover{
 		outline: none;
 		text-decoration: none;
 	}
+}
+
+// heading
+.heading{
+	font-weight: bold;
+	font-family: 'Merriweather', serif;
+	padding: 10px 0;
 }
 
 // primary-btn
