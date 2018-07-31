@@ -64,118 +64,136 @@
 	    <div class="collapse navbar-collapse" id="myNavbar">
 	      <ul class="nav navbar-nav">
 	        <li><a href="#">Home</a></li>
-	        <li><a href="#">About</a></li>
-	        <li><a href="#">Service</a></li>
+	        <li class="leakdown"><a href="#" id="myan">About</a>
+						<ul class="leakdown-content">
+							<li>Introduction</li>
+							<li>UISION & MISSION</li>
+							<li>STRATE GIC</li>
+							<li>Members</li>
+							<li>BOD</li>
+							<li>Management Team</li>
+							<li>Management Structure</li>
+						</ul>
+					</li>
+					<li><a href="#" id="man">Service</a></li>
+					<li><a href="#">Gallery</a></li>
+					<li><a href="#">Program</a></li>
+					<li><a href="#">News</a></li>
+					<li><a href="#">Downloads</a></li>
+	        <li><a href="#">Contact</a></li>
 	      </ul>
 	    </div>
 	  </div>
 	</nav>
 	<!-- /navbar -->
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-8">
-				<!-- slider -->
-				<div id="heroslider" class="carousel slide" data-ride="carousel">
-			    <!-- Indicators -->
-			    <ol class="carousel-indicators">
-			      <li data-target="#heroslider" data-slide-to="0" class="active"></li>
-			      <li data-target="#heroslider" data-slide-to="1"></li>
-			      <li data-target="#heroslider" data-slide-to="2"></li>
-			    </ol>
+	<!-- heroslider -->
+	<section class="section-padding top-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-8">
+					<!-- slider -->
+					<div id="heroslider" class="carousel slide" data-ride="carousel">
+				    <!-- Indicators -->
+				    <ol class="carousel-indicators">
+				      <li data-target="#heroslider" data-slide-to="0" class="active"></li>
+				      <li data-target="#heroslider" data-slide-to="1"></li>
+				      <li data-target="#heroslider" data-slide-to="2"></li>
+				    </ol>
 
-			    <!-- Wrapper for slides -->
-			    <div class="carousel-inner">
-			      <div class="item active">
-			        <img src="https://images.unsplash.com/photo-1495245495572-e43e6db5a478?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ccda7719bcd58c3c12d1695ad7557223&auto=format&fit=crop&w=1500&q=80" style="width:100%;">
-			      </div>
+				    <!-- Wrapper for slides -->
+				    <div class="carousel-inner">
+				      <div class="item active">
+				        <img src="https://images.unsplash.com/photo-1495245495572-e43e6db5a478?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ccda7719bcd58c3c12d1695ad7557223&auto=format&fit=crop&w=1500&q=80" style="width:100%;">
+				      </div>
 
-			      <div class="item">
-			        <img src="https://images.unsplash.com/photo-1487172768839-5803957f018a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=452258d8448586a6b61e120241705d1c&auto=format&fit=crop&w=1500&q=80" style="width:100%;">
-			      </div>
+				      <div class="item">
+				        <img src="https://images.unsplash.com/photo-1487172768839-5803957f018a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=452258d8448586a6b61e120241705d1c&auto=format&fit=crop&w=1500&q=80" style="width:100%;">
+				      </div>
 
-			      <div class="item">
-			        <img src="https://images.unsplash.com/photo-1506023578262-50650ae64bc8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9aa62d1ca8bbacdeef40c164e7e70e84&auto=format&fit=crop&w=1502&q=80" style="width:100%;">
-			      </div>
-			    </div>
-			  </div>
-				<!-- /slider -->
-			</div>
-			<div class="col-md-4">
-				<ul class="nav nav-tabs nav-justified">
-			    <li class="active"><a data-toggle="tab" href="#news">News</a></li>
-			    <li><a data-toggle="tab" href="#notice">Notice</a></li>
-			  </ul>
+				      <div class="item">
+				        <img src="https://images.unsplash.com/photo-1506023578262-50650ae64bc8?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9aa62d1ca8bbacdeef40c164e7e70e84&auto=format&fit=crop&w=1502&q=80" style="width:100%;">
+				      </div>
+				    </div>
+				  </div>
+					<!-- /slider -->
+				</div>
+				<div class="col-md-4">
+					<ul class="nav nav-tabs nav-justified">
+				    <li class="active"><a data-toggle="tab" href="#news">News</a></li>
+				    <li><a data-toggle="tab" href="#notice">Notice</a></li>
+				  </ul>
 
-			  <div class="tab-content">
-			  	<!-- news -->
-			    <div id="news" class="tab-pane fade in active">
-			      <div class="tab-items">
-			      	<div class="row">
-				      	<div class="col-xs-4">
-				      		<img src="https://cdn3.iconfinder.com/data/icons/ballicons-reloaded-free/512/icon-70-512.png" class="img-responsive">
-				      	</div>
-				      	<div class="col-xs-8">
-				      		<h3>Title</h3>
-				      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				      		tempor incididunt ut labore et dolore magna aliqua.</p>
-				      		<a href="#"><button class="btn primary-btn">Read more</button></a>
-				      	</div>
+				  <div class="tab-content">
+				  	<!-- news -->
+				    <div id="news" class="tab-pane fade in active">
+				      <div class="tab-items">
+				      	<div class="row">
+					      	<div class="col-xs-4">
+					      		<img src="https://cdn3.iconfinder.com/data/icons/ballicons-reloaded-free/512/icon-70-512.png" class="img-responsive">
+					      	</div>
+					      	<div class="col-xs-8">
+					      		<h3>Title</h3>
+					      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					      		tempor incididunt ut labore et dolore magna aliqua.</p>
+					      		<a href="#"><button class="btn primary-btn">Read more</button></a>
+					      	</div>
+					      </div>
 				      </div>
-			      </div>
-			      <hr>
-			      <div class="tab-items">
-			      	<div class="row">
-				      	<div class="col-xs-4">
-				      		<img src="https://cdn3.iconfinder.com/data/icons/ballicons-reloaded-free/512/icon-70-512.png" class="img-responsive">
-				      	</div>
-				      	<div class="col-xs-8">
-				      		<h3>Title</h3>
-				      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				      		tempor incididunt ut labore et dolore magna aliqua.</p>
-				      		<a href="#"><button class="btn primary-btn">Read more</button></a>
-				      	</div>
+				      <hr>
+				      <div class="tab-items">
+				      	<div class="row">
+					      	<div class="col-xs-4">
+					      		<img src="https://cdn3.iconfinder.com/data/icons/ballicons-reloaded-free/512/icon-70-512.png" class="img-responsive">
+					      	</div>
+					      	<div class="col-xs-8">
+					      		<h3>Title</h3>
+					      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					      		tempor incididunt ut labore et dolore magna aliqua.</p>
+					      		<a href="#"><button class="btn primary-btn">Read more</button></a>
+					      	</div>
+					      </div>
 				      </div>
-			      </div>
-			      <hr>
-			      <a href="#"><button class="btn primary-btn" style="width: 100%">View more</button></a>
-			    </div>
-			    <!-- notice -->
-			    <div id="notice" class="tab-pane fade">
-			      <div class="tab-items">
-			      	<div class="row">
-				      	<div class="col-xs-4">
-				      		<img src="https://ssc96hsc98.com/wp-content/uploads/2018/05/important-notice700px.jpg" class="img-responsive">
-				      	</div>
-				      	<div class="col-xs-8">
-				      		<h3>Title</h3>
-				      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				      		tempor incididunt ut labore et dolore magna aliqua.</p>
-				      		<a href="#"><button class="btn primary-btn">Read more</button></a>
-				      	</div>
+				      <hr>
+				      <a href="#"><button class="btn primary-btn" style="width: 100%">View more</button></a>
+				    </div>
+				    <!-- notice -->
+				    <div id="notice" class="tab-pane fade">
+				      <div class="tab-items">
+				      	<div class="row">
+					      	<div class="col-xs-4">
+					      		<img src="https://ssc96hsc98.com/wp-content/uploads/2018/05/important-notice700px.jpg" class="img-responsive">
+					      	</div>
+					      	<div class="col-xs-8">
+					      		<h3>Title</h3>
+					      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					      		tempor incididunt ut labore et dolore magna aliqua.</p>
+					      		<a href="#"><button class="btn primary-btn">Read more</button></a>
+					      	</div>
+					      </div>
 				      </div>
-			      </div>
-			      <hr>
-			      <div class="tab-items">
-			      	<div class="row">
-				      	<div class="col-xs-4">
-				      		<img src="https://ssc96hsc98.com/wp-content/uploads/2018/05/important-notice700px.jpg" class="img-responsive">
-				      	</div>
-				      	<div class="col-xs-8">
-				      		<h3>Title</h3>
-				      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				      		tempor incididunt ut labore et dolore magna aliqua.</p>
-				      		<a href="#"><button class="btn primary-btn">Read more</button></a>
-				      	</div>
+				      <hr>
+				      <div class="tab-items">
+				      	<div class="row">
+					      	<div class="col-xs-4">
+					      		<img src="https://ssc96hsc98.com/wp-content/uploads/2018/05/important-notice700px.jpg" class="img-responsive">
+					      	</div>
+					      	<div class="col-xs-8">
+					      		<h3>Title</h3>
+					      		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					      		tempor incididunt ut labore et dolore magna aliqua.</p>
+					      		<a href="#"><button class="btn primary-btn">Read more</button></a>
+					      	</div>
+					      </div>
 				      </div>
-			      </div>
-			      <hr>
-			      <a href="#"><button class="btn primary-btn" style="width: 100%">View more</button></a>
-			    </div>
-			  </div>
+				      <hr>
+				      <a href="#"><button class="btn primary-btn" style="width: 100%">View more</button></a>
+				    </div>
+				  </div>
+				</div>
 			</div>
 		</div>
-	</div>
-
+	</section>
+	<!-- /heroslider -->
 
 
 	<!-- about -->
@@ -183,7 +201,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-8">
-					<h1>Introduction</h1>
+					<h1 class="heading">Introduction</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -218,7 +236,7 @@
 				</div>
 				<!-- members -->
 				<div class="col-md-4">
-					<h1>Members</h1>
+					<h1 class="heading">Members</h1>
 					<div class="row">
 						<div class="col-xs-4">
 							<img src="https://seeklogo.com/images/F/finance-logo-AA6E2A12C9-seeklogo.com.png" class="img-responsive">
@@ -259,7 +277,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-8">
-					<h1>Services</h1>
+					<h1 class="heading">Services</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -271,7 +289,7 @@
 							<div class="services-items">
 								<img src="https://imarticus.org/wp-content/uploads/2016/06/financialservices.jpg" class="img-responsive">
 								<div style="padding: 0 5px 0 5px">
-									<h3>Traning</h3>
+									<h3>Seminar Program</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 									tempor incididunt ut labore et dolore magna aliqua.</p>
 								</div>
@@ -282,7 +300,7 @@
 							<div class="services-items">
 								<img src="https://imarticus.org/wp-content/uploads/2016/06/financialservices.jpg" class="img-responsive">
 								<div style="padding: 0 5px 0 5px">
-									<h3>Traning</h3>
+									<h3>Co-ordination Service</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 									tempor incididunt ut labore et dolore magna aliqua.</p>
 								</div>
@@ -293,7 +311,7 @@
 							<div class="services-items">
 								<img src="https://imarticus.org/wp-content/uploads/2016/06/financialservices.jpg" class="img-responsive">
 								<div style="padding: 0 5px 0 5px">
-									<h3>Traning</h3>
+									<h3>Financial debt support</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 									tempor incididunt ut labore et dolore magna aliqua.</p>
 								</div>
@@ -306,7 +324,7 @@
 							<div class="services-items">
 								<img src="https://imarticus.org/wp-content/uploads/2016/06/financialservices.jpg" class="img-responsive">
 								<div style="padding: 0 5px 0 5px">
-									<h3>Traning</h3>
+									<h3>Liquidity management</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 									tempor incididunt ut labore et dolore magna aliqua.</p>
 								</div>
@@ -328,7 +346,7 @@
 							<div class="services-items">
 								<img src="https://imarticus.org/wp-content/uploads/2016/06/financialservices.jpg" class="img-responsive">
 								<div style="padding: 0 5px 0 5px">
-									<h3>Traning</h3>
+									<h3>Consulting service</h3>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 									tempor incididunt ut labore et dolore magna aliqua.</p>
 								</div>
@@ -339,7 +357,7 @@
 				</div>
 				<!-- bod -->
 				<div class="col-md-4 team-slider">
-					<h1>B.O.D</h1>
+					<h1 class="heading">B.O.D</h1>
 					<div id="bod-slider" class="carousel slide" data-ride="carousel">
 					  <!-- Indicators -->
 					  <ol class="carousel-indicators">
@@ -395,7 +413,7 @@
 					  </a> -->
 					</div>
 					<!-- management team -->
-					<h1>Management Team</h1>
+					<h1 class="heading">Management Team</h1>
 					<div id="mgmt-team" class="carousel slide" data-ride="carousel">
 					  <!-- Indicators -->
 					  <ol class="carousel-indicators">
@@ -455,7 +473,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-8">
-					<h1>Gallery</h1>
+					<h1 class="heading">Gallery</h1>
 					<div class="row">
 						<div class="col-sm-4">
 							<div class="thumbnail">
@@ -511,7 +529,7 @@
 				</div>
 				<!-- programe and event -->
 				<div class="col-md-4">
-					<h1>Programe & Events</h1>
+					<h1 class="heading">Program & Events</h1>
 					<div class="row">
 						<div class="col-sm-12">
 							<div class="thumbnail">
@@ -546,7 +564,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-md-8">
-					<h1>Contact Us</h1>
+					<h1 class="heading">Contact Us</h1>
 					<div class="row">
 						<div class="col-sm-6">
 							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3533.69811081772!2d85.42341651450978!3d27.664810433968082!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb1aa7b385e8af%3A0x1b1cd36df6653965!2sBhaktapur+District+Saving+And+Credit+Cooperative+Union+Ltd!5e0!3m2!1sen!2sus!4v1532686414854" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -576,7 +594,7 @@
 				</div>
 				<!-- feedback -->
 				<div class="col-md-4">
-					<h1>Send us Feed back</h1>
+					<h1 class="heading">Send us Feed back</h1>
 					<form>
 						<div class="form-group">
 					    <label>Email address:</label>
