@@ -8,18 +8,18 @@ footer{
     text-decoration: underline;
     font-weight: bold;
   }
-  ul{
-    display: inline;
-    padding: 0;
-    li{
-      color: #fff;
-      list-style: none;
-      transition: 0.2s;
-      &:hover{
-        padding-left: 10px;
-      }
-    }
-  }
+  // ul{
+  //   display: inline;
+  //   padding: 0;
+  //   li{
+  //     color: #fff;
+  //     list-style: none;
+  //     transition: 0.2s;
+  //     &:hover{
+  //       padding-left: 10px;
+  //     }
+  //   }
+  // }
 }
 // social-icon
 .social:hover {
