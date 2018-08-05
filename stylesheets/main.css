@@ -167,49 +167,50 @@ form ~ .fa {
   background-color: #f9f9f9;
   box-shadow: 2px 5px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  cursor: pointer;
   white-space: nowrap;
   list-style: none;
   transition: 0,2s;
   padding: 0px;
 }
-/* line 94, ../sass/module/_nav.scss */
+/* line 95, ../sass/module/_nav.scss */
 .leakdown-content li {
   padding: 5px 25px;
 }
-/* line 96, ../sass/module/_nav.scss */
+/* line 97, ../sass/module/_nav.scss */
 .leakdown-content li:hover {
   background-color: #003399;
   color: #fff;
 }
 
-/* line 102, ../sass/module/_nav.scss */
+/* line 103, ../sass/module/_nav.scss */
 .leakdown {
   position: relative;
 }
-/* line 104, ../sass/module/_nav.scss */
+/* line 105, ../sass/module/_nav.scss */
 .leakdown:hover .leakdown-content {
   display: block;
 }
 
 @media screen and (min-width: 1163px) {
-  /* line 112, ../sass/module/_nav.scss */
+  /* line 113, ../sass/module/_nav.scss */
   .navbar-form .input-group {
     width: 450px;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 117, ../sass/module/_nav.scss */
+  /* line 118, ../sass/module/_nav.scss */
   .navbar-form .input-group {
     margin-top: 10px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 123, ../sass/module/_nav.scss */
+  /* line 124, ../sass/module/_nav.scss */
   .resp--hd {
     display: none;
   }
 
-  /* line 126, ../sass/module/_nav.scss */
+  /* line 127, ../sass/module/_nav.scss */
   .navbar-form {
     padding: 0px 25px;
     border-top: none;
@@ -217,7 +218,7 @@ form ~ .fa {
     margin-bottom: -7px;
   }
 
-  /* line 134, ../sass/module/_nav.scss */
+  /* line 135, ../sass/module/_nav.scss */
   .resp--logo {
     display: block;
     position: relative;
@@ -225,12 +226,12 @@ form ~ .fa {
     padding: 5px;
   }
 
-  /* line 141, ../sass/module/_nav.scss */
+  /* line 142, ../sass/module/_nav.scss */
   .navbar-right .num-eml {
     margin-top: 8px;
   }
 
-  /* line 146, ../sass/module/_nav.scss */
+  /* line 147, ../sass/module/_nav.scss */
   .leakdown-content {
     position: relative;
     background-color: #339933;
@@ -239,7 +240,7 @@ form ~ .fa {
   }
 }
 @media (min-width: 468px) {
-  /* line 156, ../sass/module/_nav.scss */
+  /* line 157, ../sass/module/_nav.scss */
   .lang-change {
     display: inline;
   }
@@ -293,21 +294,6 @@ footer {
 footer h3 {
   text-decoration: underline;
   font-weight: bold;
-}
-/* line 11, ../sass/module/_footer.scss */
-footer ul {
-  display: inline;
-  padding: 0;
-}
-/* line 14, ../sass/module/_footer.scss */
-footer ul li {
-  color: #fff;
-  list-style: none;
-  transition: 0.2s;
-}
-/* line 18, ../sass/module/_footer.scss */
-footer ul li:hover {
-  padding-left: 10px;
 }
 
 /* line 25, ../sass/module/_footer.scss */
