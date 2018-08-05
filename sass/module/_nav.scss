@@ -8,11 +8,16 @@
     }
   }
 }
+
+.nav--bg{
+  background-color: #fff;
+  padding-top: 2px;
+}
+
 .navbar {
   border-radius: 0px;
   transition: 0.2s;
   background: $primary-color;
-  padding-top: 2px;
   .navbar-brand{
     padding: 0px 0px;
     display: flex;
@@ -43,7 +48,8 @@
   .some-txt{
     float: left;
     line-height: 20px;
-    color: #fff;
+    color: $primary-color;
+    padding-bottom: 8px;
     h3{
       margin-top: 0px;
       margin-bottom: 0px;
@@ -51,19 +57,19 @@
   }
 }
 
+.navbar-form{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
 .navbar-right{
-  .navbar-form{
-    margin-top: 0px;
-    margin-bottom: 0px;
-    .num-eml{
-      margin-top: 8px;
-      color: #fff;
-      i{
-        margin-right: 3px;
-      }
-      .lang-change a{
-        color: #fff;
-      }
+  .num-eml{
+    margin-top: 16px;
+    padding-right: 5px;
+    color: #000;
+    text-align: center;
+    i{
+      margin-right: 3px;
+      color: $primary-color;
     }
   }
 }
@@ -81,6 +87,7 @@ form~.fa{
   background-color: #f9f9f9;
   box-shadow: 2px 5px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  white-space: nowrap;
   list-style: none;
   transition: 0,2s;
   padding: 0px;
@@ -100,41 +107,53 @@ form~.fa{
 }
 
 //responsive
-@media screen and (min-width: 768px){
-  .navbar-form .input-group {
-    width: 390px;
+  //search bar form
+  @media screen and (min-width: 1163px){
+    .navbar-form .input-group {
+      width: 450px;
+    }
   }
-}
+  @media screen and (min-width: 768px){
+    .navbar-form .input-group {
+      margin-top: 10px;
+    }
+  }
+  @media screen and (max-width: 767px){
+    //navbar
+    .resp--hd{
+      display: none;
+    }
+    .navbar-form{
+      padding: 0px 25px;
+      border-top: none;
+      border-bottom: none;
+      margin-bottom: -7px;
+    }
 
-@media screen and (max-width: 767px){
-  //navbar
-  .resp--hd{
-    display: none;
-  }
-  .navbar-form{
-    padding: 0px 25px;
-    border-top: none;
-    border-bottom: none;
-    margin-bottom: -7px;
-  }
-  .resp--logo{
-    display: block;
-    position: relative;
-    float: left;
-    padding: 5px;
+    //logo in responsive
+    .resp--logo{
+      display: block;
+      position: relative;
+      float: left;
+      padding: 5px;
+    }
+
+    .navbar-right .num-eml{
+      margin-top: 8px;
+    }
+
+    //leakdown
+    .leakdown-content {
+      position: relative;
+      background-color: $primary-color;
+      box-shadow: none;
+      color: #fff;
+    }
   }
 
-  //leakdown
-  .leakdown-content {
-    position: relative;
-    background-color: $primary-color;
-    box-shadow: none;
-    color: #fff;
+  //language flag
+  @media (min-width: 468px){
+    .lang-change{
+      display: inline;
+    }
   }
-}
-
-@media (min-width: 468px){
-  .lang-change{
-    display: inline;
-  }
-}

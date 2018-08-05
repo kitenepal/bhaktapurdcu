@@ -12,7 +12,7 @@
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top" id="navbar">
-		<div class="container-fluid">
+		<div class="container-fluid nav--bg">
 			<div class="navbar-header resp--hd">
       	<div class="navbar-brand" href="#">
 					<div class="social-icon">
@@ -28,25 +28,25 @@
     		<h3>Department of Co-operative</h3>
     	</div>
 			<!--search-->
+			<form class="navbar-form navbar-left" action="/action_page.php">
+				<div class="input-group">
+					<input type="text" class="form-control" placeholder="Search SACCOS" name="search">
+					<div class="input-group-btn">
+						<button class="btn btn-default" type="submit">
+							<i class="fa fa-search"></i>
+						</button>
+					</div>
+				</div>
+			</form>
 			<div class="nav navbar-nav navbar-right">
-				<form class="navbar-form navbar-left" action="/action_page.php">
-					<div class="input-group">
-						<input type="text" class="form-control" placeholder="Search" name="search">
-						<div class="input-group-btn">
-							<button class="btn btn-default" type="submit">
-								<i class="fa fa-search"></i>
-							</button>
-						</div>
+				<div class="num-eml">
+					<i class="fa fa-phone"></i>9841569874  &nbsp&nbsp&nbsp
+					<i class="fa fa-envelope"></i>bhaktapur@.com
+					<div class="lang-change">
+						<a href="#"><img src="img/en_flag.png" alt=""></a>
+						<a href="#"><img src="img/nep_flag.png" alt=""></a>
 					</div>
-					<div class="num-eml">
-						<i class="fa fa-phone"></i>9841569874  &nbsp&nbsp&nbsp
-						<i class="fa fa-envelope"></i>bhaktapur@.com
-						<div class="lang-change">
-							<a href="#"><img src="img/en_flag.png" alt=""> English</a>
-							<a href="#"><img src="img/nep_flag.png" alt=""> नेपाली</a>
-						</div>
-					</div>
-				</form>
+				</div>
 			</div>
 		</div>
 	  <div class="container-fluid">
@@ -63,7 +63,7 @@
 	    <div class="collapse navbar-collapse" id="myNavbar">
 	      <ul class="nav navbar-nav">
 	        <li><a href="#">Home</a></li>
-	        <li class="leakdown"><a href="#">About</a>
+	        <li class="leakdown"><a href="#">About <i class="fa fa-angle-down"></i></a>
 						<ul class="leakdown-content">
 							<li>Introduction</li>
 							<li>UISION & MISSION</li>
@@ -78,7 +78,7 @@
 					<li><a href="#">Gallery</a></li>
 					<li><a href="#">Program</a></li>
 					<li><a href="#">News</a></li>
-					<li class="leakdown"><a href="#">Downloads</a>
+					<li class="leakdown"><a href="#">Downloads <i class="fa fa-angle-down"></i></a>
 						<ul class="leakdown-content">
 							<li>Forms</li>
 							<li>Report</li>
