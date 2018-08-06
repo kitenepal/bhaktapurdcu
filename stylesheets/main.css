@@ -380,6 +380,10 @@ form ~ .fa {
 .carousel.vertical .carousel-control .icon-next:before {
   content: '\203a';
 }
+/* line 120, ../sass/module/_members.scss */
+.carousel.vertical .carousel-control .fa {
+  color: #339933;
+}
 
 /* line 1, ../sass/module/_services.scss */
 .services {
