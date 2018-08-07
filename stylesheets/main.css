@@ -101,71 +101,72 @@ a:hover {
 }
 /* line 27, ../sass/module/_nav.scss */
 .navbar .navbar-brand .social-icon a {
-  padding: 0px 5px;
+  padding: 1px 5px;
   color: #fff;
   text-align: center;
+  margin: -2px;
 }
-/* line 31, ../sass/module/_nav.scss */
+/* line 32, ../sass/module/_nav.scss */
 .navbar .navbar-brand .social-icon a:nth-child(1) {
   background-color: #3A58A1;
 }
-/* line 34, ../sass/module/_nav.scss */
+/* line 35, ../sass/module/_nav.scss */
 .navbar .navbar-brand .social-icon a:nth-child(2) {
   background-color: #01B1FD;
 }
-/* line 37, ../sass/module/_nav.scss */
+/* line 38, ../sass/module/_nav.scss */
 .navbar .navbar-brand .social-icon a:nth-child(3) {
   background-color: #E84B2A;
 }
-/* line 43, ../sass/module/_nav.scss */
+/* line 44, ../sass/module/_nav.scss */
 .navbar .logo {
   width: 70px;
   height: 60px;
   margin: 0px 10px;
 }
-/* line 48, ../sass/module/_nav.scss */
+/* line 49, ../sass/module/_nav.scss */
 .navbar .some-txt {
   float: left;
   line-height: 20px;
   color: #339933;
   padding-bottom: 8px;
 }
-/* line 53, ../sass/module/_nav.scss */
+/* line 54, ../sass/module/_nav.scss */
 .navbar .some-txt h3 {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-/* line 60, ../sass/module/_nav.scss */
+/* line 61, ../sass/module/_nav.scss */
 .navbar-form {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-/* line 65, ../sass/module/_nav.scss */
+/* line 66, ../sass/module/_nav.scss */
 .navbar-right .num-eml {
   margin-top: 16px;
   padding-right: 5px;
   color: #000;
   text-align: center;
 }
-/* line 70, ../sass/module/_nav.scss */
+/* line 71, ../sass/module/_nav.scss */
 .navbar-right .num-eml i {
   margin-right: 3px;
   color: #339933;
 }
 
-/* line 76, ../sass/module/_nav.scss */
+/* line 77, ../sass/module/_nav.scss */
 form ~ .fa {
   color: #fff;
 }
 
-/* line 79, ../sass/module/_nav.scss */
+/* line 80, ../sass/module/_nav.scss */
 .resp--logo {
   display: none;
 }
 
-/* line 84, ../sass/module/_nav.scss */
+/* line 85, ../sass/module/_nav.scss */
 .leakdown-content {
   display: none;
   position: absolute;
@@ -178,44 +179,44 @@ form ~ .fa {
   transition: 0,2s;
   padding: 0px;
 }
-/* line 95, ../sass/module/_nav.scss */
+/* line 96, ../sass/module/_nav.scss */
 .leakdown-content li {
   padding: 5px 25px;
 }
-/* line 97, ../sass/module/_nav.scss */
+/* line 98, ../sass/module/_nav.scss */
 .leakdown-content li:hover {
   background-color: #003399;
   color: #fff;
 }
 
-/* line 103, ../sass/module/_nav.scss */
+/* line 104, ../sass/module/_nav.scss */
 .leakdown {
   position: relative;
 }
-/* line 105, ../sass/module/_nav.scss */
+/* line 106, ../sass/module/_nav.scss */
 .leakdown:hover .leakdown-content {
   display: block;
 }
 
 @media screen and (min-width: 1163px) {
-  /* line 113, ../sass/module/_nav.scss */
+  /* line 114, ../sass/module/_nav.scss */
   .navbar-form .input-group {
     width: 450px;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 118, ../sass/module/_nav.scss */
+  /* line 119, ../sass/module/_nav.scss */
   .navbar-form .input-group {
     margin-top: 10px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 124, ../sass/module/_nav.scss */
+  /* line 125, ../sass/module/_nav.scss */
   .resp--hd {
     display: none;
   }
 
-  /* line 127, ../sass/module/_nav.scss */
+  /* line 128, ../sass/module/_nav.scss */
   .navbar-form {
     padding: 0px 25px;
     border-top: none;
@@ -223,7 +224,7 @@ form ~ .fa {
     margin-bottom: -7px;
   }
 
-  /* line 135, ../sass/module/_nav.scss */
+  /* line 136, ../sass/module/_nav.scss */
   .resp--logo {
     display: block;
     position: relative;
@@ -231,12 +232,12 @@ form ~ .fa {
     padding: 5px;
   }
 
-  /* line 142, ../sass/module/_nav.scss */
+  /* line 143, ../sass/module/_nav.scss */
   .navbar-right .num-eml {
     margin-top: 8px;
   }
 
-  /* line 147, ../sass/module/_nav.scss */
+  /* line 148, ../sass/module/_nav.scss */
   .leakdown-content {
     position: relative;
     background-color: #339933;
@@ -245,7 +246,7 @@ form ~ .fa {
   }
 }
 @media (min-width: 468px) {
-  /* line 157, ../sass/module/_nav.scss */
+  /* line 158, ../sass/module/_nav.scss */
   .lang-change {
     display: inline;
   }
