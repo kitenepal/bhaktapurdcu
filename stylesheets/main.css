@@ -1,24 +1,28 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather");
-/* line 4, ../sass/base/_base.scss */
+/* line 3, ../sass/base/_base.scss */
+a {
+  color: #339933;
+}
+/* line 5, ../sass/base/_base.scss */
 a:hover {
   outline: none;
   text-decoration: none;
 }
 
-/* line 11, ../sass/base/_base.scss */
+/* line 12, ../sass/base/_base.scss */
 .heading {
   font-weight: bold;
   font-family: 'Merriweather', serif;
   padding: 10px 0;
 }
 
-/* line 18, ../sass/base/_base.scss */
+/* line 19, ../sass/base/_base.scss */
 .primary-btn {
   background-color: #339933;
   color: #fff;
   transition: 0.2s;
 }
-/* line 23, ../sass/base/_base.scss */
+/* line 24, ../sass/base/_base.scss */
 .primary-btn:hover, .primary-btn:focus {
   border: #339933 1px solid;
   background-color: transparent;
@@ -26,12 +30,12 @@ a:hover {
   outline: none;
 }
 
-/* line 32, ../sass/base/_base.scss */
+/* line 33, ../sass/base/_base.scss */
 .section-padding {
   padding: 20px 0;
 }
 
-/* line 37, ../sass/base/_base.scss */
+/* line 38, ../sass/base/_base.scss */
 .sidebar {
   padding-bottom: 50px;
 }

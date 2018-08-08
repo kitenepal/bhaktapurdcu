@@ -1,6 +1,7 @@
 // heading font
 @import url('https://fonts.googleapis.com/css?family=Merriweather');
 a{
+	color: $primary-color;
 	&:hover{
 		outline: none;
 		text-decoration: none;
