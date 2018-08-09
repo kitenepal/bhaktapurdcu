@@ -398,17 +398,24 @@ form ~ .fa {
 /* line 4, ../sass/module/_services.scss */
 .services-items {
   margin: 20px 0;
-  border-width: 1px 1px 0 1px;
+  border: 1px;
   border-color: #339933;
   border-style: solid;
+  height: 365px;
+  padding-bottom: 0 !important;
 }
-/* line 9, ../sass/module/_services.scss */
+/* line 12, ../sass/module/_services.scss */
 .services-items h3 {
   font-weight: bold;
 }
-/* line 12, ../sass/module/_services.scss */
+/* line 15, ../sass/module/_services.scss */
 .services-items .primary-btn {
   border-radius: 0;
+  position: absolute;
+  margin-bottom: 20px;
+  bottom: 0;
+  width: 90% !important;
+  border-right-width: 2px;
 }
 
 /* line 2, ../sass/module/_bod-slider.scss */

@@ -3,13 +3,21 @@
 }
 .services-items{
 	margin: 20px 0;
-	border-width: 1px 1px 0 1px;
+	// border-width: 1px 1px 0 1px;
+	border: 1px;
 	border-color: $primary-color;
 	border-style: solid;
+	height: 365px;
+	padding-bottom: 0 !important;
 	h3{
 		font-weight: bold;
 	}
 	.primary-btn{
 		border-radius: 0;
+		position: absolute;
+		margin-bottom: 20px;
+		bottom: 0;
+		width: 90% !important;
+		border-right-width: 2px;
 	}
 }
