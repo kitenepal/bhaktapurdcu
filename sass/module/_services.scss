@@ -21,3 +21,13 @@
 		border-right-width: 2px;
 	}
 }
+
+@media screen and (max-width: 767px){
+	.services-items{
+		height: 400px;
+		.primary-btn{
+			width: 92% !important;
+			bottom: -20px;
+		}
+	}
+}

@@ -40,6 +40,12 @@ a:hover {
   padding-bottom: 50px;
 }
 
+@media screen and (max-width: 767px) {
+  /* line 43, ../sass/base/_base.scss */
+  .sidebar {
+    padding-top: 10px;
+  }
+}
 /* line 1, ../sass/module/_top-section.scss */
 .top-section {
   padding-top: 120px;
@@ -428,6 +434,17 @@ form ~ .fa {
   border-right-width: 2px;
 }
 
+@media screen and (max-width: 767px) {
+  /* line 26, ../sass/module/_services.scss */
+  .services-items {
+    height: 400px;
+  }
+  /* line 28, ../sass/module/_services.scss */
+  .services-items .primary-btn {
+    width: 92% !important;
+    bottom: -20px;
+  }
+}
 /* line 2, ../sass/module/_bod-slider.scss */
 .team-slider .carousel-indicators .active {
   background-color: #339933;
