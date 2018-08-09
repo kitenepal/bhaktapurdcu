@@ -95,6 +95,7 @@ form~.fa{
   padding: 0px;
   li{
     padding: 5px 25px;
+    color: $primary-color;
     &:hover{
       background-color: $secondary-color;
       color: #fff;
@@ -150,6 +151,9 @@ form~.fa{
       background-color: $primary-color;
       box-shadow: none;
       color: #fff;
+      li{
+        color: #fff;
+      }
     }
   }
 
