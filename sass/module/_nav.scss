@@ -25,7 +25,7 @@
       display: flex;
       flex-direction: column;
       a{
-        padding: 1px 5px;
+        padding: 2px 5px;
         color: #fff;
         text-align: center;
         margin: -2px;
@@ -37,6 +37,9 @@
         }
         &:nth-child(3){
           background-color: #E84B2A;
+        }
+        &:nth-child(4){
+          background-color: #25D366;
         }
       }
     }
