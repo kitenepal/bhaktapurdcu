@@ -417,7 +417,7 @@ form ~ .fa {
   border: 1px;
   border-color: #339933;
   border-style: solid;
-  height: 365px;
+  height: 360px;
   padding-bottom: 0 !important;
 }
 /* line 12, ../sass/module/_services.scss */
@@ -431,7 +431,7 @@ form ~ .fa {
   margin-bottom: 20px;
   bottom: 0;
   width: 90% !important;
-  border-right-width: 2px;
+  border-right-width: 5px;
 }
 
 @media screen and (max-width: 767px) {
