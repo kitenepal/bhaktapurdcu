@@ -25,7 +25,7 @@
       display: flex;
       flex-direction: column;
       a{
-        padding: 2px 5px;
+        padding: 13px 10px;
         color: #fff;
         text-align: center;
         margin: -2px;
@@ -47,14 +47,14 @@
   .logo{
     width: 70px;
     height: 60px;
-    margin: 0px 10px;
+    margin: 10px 10px;
   }
   .some-txt{
     float: left;
     line-height: 20px;
     color: $primary-color;
     padding-bottom: 8px;
-    h3{
+    h1{
       margin-top: 0px;
       margin-bottom: 0px;
     }
@@ -70,7 +70,7 @@
 }
 .navbar-right{
   .num-eml{
-    margin-top: 16px;
+    margin-top: 30px;
     padding-right: 5px;
     color: #000;
     text-align: center;
@@ -119,12 +119,15 @@ form~.fa{
   //search bar form
   @media screen and (min-width: 1163px){
     .navbar-form .input-group {
-      width: 450px;
+      width: 260px;
     }
   }
   @media screen and (min-width: 768px){
     .navbar-form .input-group {
-      margin-top: 10px;
+      margin-top: 25px;
+    }
+    .navbar-nav>li>a {
+      padding-top: 10px;
     }
   }
   @media screen and (max-width: 767px){
