@@ -168,46 +168,50 @@ a:hover {
   margin-top: 0px;
   margin-bottom: 0px;
 }
+/* line 62, ../sass/module/_nav.scss */
+.navbar .nav-txtscroll {
+  background: #fff;
+}
 
-/* line 63, ../sass/module/_nav.scss */
+/* line 66, ../sass/module/_nav.scss */
 .navbar-nav {
   margin: 0 -15px;
 }
 
-/* line 67, ../sass/module/_nav.scss */
+/* line 70, ../sass/module/_nav.scss */
 .navbar-form {
   margin-top: 0px;
   margin-bottom: 0px;
 }
 
-/* line 72, ../sass/module/_nav.scss */
+/* line 75, ../sass/module/_nav.scss */
 .navbar-right .lang-change {
   float: right;
 }
-/* line 75, ../sass/module/_nav.scss */
+/* line 78, ../sass/module/_nav.scss */
 .navbar-right .num-eml {
   margin-top: 25px;
   padding-right: 5px;
   color: #000;
   text-align: left;
 }
-/* line 80, ../sass/module/_nav.scss */
+/* line 83, ../sass/module/_nav.scss */
 .navbar-right .num-eml i {
   margin-right: 3px;
   color: #339933;
 }
 
-/* line 86, ../sass/module/_nav.scss */
+/* line 89, ../sass/module/_nav.scss */
 form ~ .fa {
   color: #fff;
 }
 
-/* line 89, ../sass/module/_nav.scss */
+/* line 92, ../sass/module/_nav.scss */
 .resp--logo {
   display: none;
 }
 
-/* line 94, ../sass/module/_nav.scss */
+/* line 97, ../sass/module/_nav.scss */
 .leakdown-content {
   display: none;
   position: absolute;
@@ -220,54 +224,54 @@ form ~ .fa {
   transition: 0,2s;
   padding: 0px;
 }
-/* line 105, ../sass/module/_nav.scss */
+/* line 108, ../sass/module/_nav.scss */
 .leakdown-content li {
   padding: 5px 25px;
   color: #339933;
 }
-/* line 108, ../sass/module/_nav.scss */
+/* line 111, ../sass/module/_nav.scss */
 .leakdown-content li:hover {
   background-color: #003399;
   color: #fff;
 }
 
-/* line 114, ../sass/module/_nav.scss */
+/* line 117, ../sass/module/_nav.scss */
 .leakdown {
   position: relative;
 }
-/* line 116, ../sass/module/_nav.scss */
+/* line 119, ../sass/module/_nav.scss */
 .leakdown:hover .leakdown-content {
   display: block;
 }
 
 @media screen and (min-width: 1163px) {
-  /* line 124, ../sass/module/_nav.scss */
+  /* line 127, ../sass/module/_nav.scss */
   .navbar-form .input-group {
     width: 300px;
   }
-  /* line 126, ../sass/module/_nav.scss */
+  /* line 129, ../sass/module/_nav.scss */
   .navbar-form .input-group .form-control {
     height: 33px;
   }
 }
 @media screen and (min-width: 768px) {
-  /* line 132, ../sass/module/_nav.scss */
+  /* line 135, ../sass/module/_nav.scss */
   .navbar-form .input-group {
     margin-top: 25px;
   }
 
-  /* line 135, ../sass/module/_nav.scss */
+  /* line 138, ../sass/module/_nav.scss */
   .navbar-nav > li > a {
     padding-top: 10px;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 141, ../sass/module/_nav.scss */
+  /* line 144, ../sass/module/_nav.scss */
   .resp--hd {
     display: none;
   }
 
-  /* line 144, ../sass/module/_nav.scss */
+  /* line 147, ../sass/module/_nav.scss */
   .navbar-form {
     padding: 0px 25px;
     border-top: none;
@@ -275,7 +279,7 @@ form ~ .fa {
     margin-bottom: -7px;
   }
 
-  /* line 152, ../sass/module/_nav.scss */
+  /* line 155, ../sass/module/_nav.scss */
   .resp--logo {
     display: block;
     position: relative;
@@ -283,31 +287,31 @@ form ~ .fa {
     padding: 5px;
   }
 
-  /* line 160, ../sass/module/_nav.scss */
+  /* line 163, ../sass/module/_nav.scss */
   .navbar-right .num-eml {
     margin-top: 8px;
     padding-right: 17px;
     text-align: center;
   }
-  /* line 165, ../sass/module/_nav.scss */
+  /* line 168, ../sass/module/_nav.scss */
   .navbar-right .lang-change {
     margin-top: 15px;
   }
 
-  /* line 172, ../sass/module/_nav.scss */
+  /* line 175, ../sass/module/_nav.scss */
   .leakdown-content {
     position: relative;
     background-color: #339933;
     box-shadow: none;
     color: #fff;
   }
-  /* line 177, ../sass/module/_nav.scss */
+  /* line 180, ../sass/module/_nav.scss */
   .leakdown-content li {
     color: #fff;
   }
 }
 @media (min-width: 468px) {
-  /* line 185, ../sass/module/_nav.scss */
+  /* line 188, ../sass/module/_nav.scss */
   .lang-change {
     display: inline;
   }
