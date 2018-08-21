@@ -69,11 +69,14 @@
   margin-bottom: 0px;
 }
 .navbar-right{
+  .lang-change{
+    float: right;
+  }
   .num-eml{
-    margin-top: 30px;
+    margin-top: 25px;
     padding-right: 5px;
     color: #000;
-    text-align: center;
+    text-align: left;
     i{
       margin-right: 3px;
       color: $primary-color;
@@ -119,7 +122,10 @@ form~.fa{
   //search bar form
   @media screen and (min-width: 1163px){
     .navbar-form .input-group {
-      width: 260px;
+      width: 300px;
+      .form-control{
+        height: 33px;
+      }
     }
   }
   @media screen and (min-width: 768px){
@@ -150,9 +156,17 @@ form~.fa{
       padding: 5px;
     }
 
-    .navbar-right .num-eml{
-      margin-top: 8px;
+    .navbar-right{
+       .num-eml{
+        margin-top: 8px;
+        padding-right: 17px;
+        text-align: center;
+      }
+       .lang-change{
+        margin-top: 15px;
+      }
     }
+
 
     //leakdown
     .leakdown-content {
