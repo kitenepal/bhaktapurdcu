@@ -1,9 +1,13 @@
 header{
-	background-color: #f0f0f0;
+	background-color: #eaf4e5;
 	padding: 10px 0;
 	.col-md-6{
 		&:nth-child(2){
 			text-align: right;
+			.form-control{
+				background-color: #eaf4e5;
+				border-color: $primary-color;
+			}
 		}
 	}
 }

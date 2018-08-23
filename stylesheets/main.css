@@ -53,16 +53,21 @@ a:hover {
 }
 /* line 1, ../sass/module/_header.scss */
 header {
-  background-color: #f0f0f0;
+  background-color: #eaf4e5;
   padding: 10px 0;
 }
 /* line 5, ../sass/module/_header.scss */
 header .col-md-6:nth-child(2) {
   text-align: right;
 }
+/* line 7, ../sass/module/_header.scss */
+header .col-md-6:nth-child(2) .form-control {
+  background-color: #eaf4e5;
+  border-color: #339933;
+}
 
 @media screen and (max-width: 760px) {
-  /* line 14, ../sass/module/_header.scss */
+  /* line 18, ../sass/module/_header.scss */
   header .col-md-6:nth-child(2) {
     text-align: center;
   }
