@@ -60,7 +60,9 @@
     }
   }
   .nav-txtscroll{
-    background: #fff;
+    background: $secondary-color;
+    color: #fff;
+    padding-top: 5px;
   }
 }
 .navbar-nav{
@@ -87,7 +89,7 @@
   }
 }
 form~.fa{
-  color: #fff;
+  // color: #fff;
 }
 .resp--logo{
   display: none;
@@ -136,7 +138,7 @@ form~.fa{
       margin-top: 25px;
     }
     .navbar-nav>li>a {
-      padding-top: 10px;
+      padding: 10px 15px;
     }
   }
   @media screen and (max-width: 767px){
