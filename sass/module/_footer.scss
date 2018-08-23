@@ -20,6 +20,12 @@ footer{
   //     }
   //   }
   // }
+  a{
+    color: #fff;
+    &:hover{
+      color: $primary-color;
+    }
+  }
 }
 // social-icon
 .social:hover {
