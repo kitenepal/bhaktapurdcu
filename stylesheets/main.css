@@ -40,13 +40,19 @@ a:hover {
   padding-top: 200px;
 }
 
-/* line 43, ../sass/base/_base.scss */
+@media screen and (max-width: 760px) {
+  /* line 43, ../sass/base/_base.scss */
+  .padding-top {
+    padding-top: 265px;
+  }
+}
+/* line 48, ../sass/base/_base.scss */
 .sidebar {
   padding-bottom: 50px;
 }
 
 @media screen and (max-width: 767px) {
-  /* line 48, ../sass/base/_base.scss */
+  /* line 53, ../sass/base/_base.scss */
   .sidebar {
     padding-top: 10px;
   }
@@ -90,7 +96,11 @@ header .col-md-6:nth-child(2) .form-control {
 }
 
 @media screen and (max-width: 760px) {
-  /* line 18, ../sass/module/_top-section.scss */
+  /* line 16, ../sass/module/_top-section.scss */
+  .top-section {
+    padding-top: 265px;
+  }
+  /* line 19, ../sass/module/_top-section.scss */
   .top-section .carousel-caption h3 {
     font-size: 20px;
   }
